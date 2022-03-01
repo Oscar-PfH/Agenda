@@ -1,0 +1,67 @@
+#contacts-image {
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+}
+
+#add-image {
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+}
+
+#contacts, #form-link, #select-all {
+    cursor: pointer;
+}
+.no-seleccionable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+#select-image {
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+}
+
+#search-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#edit-image, #remove-image {
+    width: 28px;
+    height: 28px;
+    border-radius: 5px;
+}
+
+#emergent-message {
+    display: none;
+    align-items: center;
+    width: 30%;
+    height: 5vh;
+    background-color: rgb(40, 40, 43);
+    border-radius: 30px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1vh;
+    left: 50%;
+    margin-left: -15%;
+    animation: show .4s linear;
+}
+
+@keyframes show {
+    0% { transform: translateY(100%)}
+    100% { transform: translateY(0%)}
+}
+
+
+#emergent-message #message {
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 auto;
+}
